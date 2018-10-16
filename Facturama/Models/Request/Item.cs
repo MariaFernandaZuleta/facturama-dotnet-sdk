@@ -41,5 +41,8 @@ namespace Facturama.Models.Request
 
         [JsonProperty("Total")]
         public decimal Total { get; set; }
+
+        [JsonProperty("Complement")]
+        public ItemComplement Complement { get; set; }
     }
 }

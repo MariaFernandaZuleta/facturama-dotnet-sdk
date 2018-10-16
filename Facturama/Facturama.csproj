@@ -62,8 +62,27 @@
     <Compile Include="Models\Request\Cfdi.cs" />
     <Compile Include="Models\Request\CfdiRelation.cs" />
     <Compile Include="Models\Request\CfdiRelations.cs" />
+    <Compile Include="Models\Request\Complement.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\Address.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\AddressEmisor.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\Commodity.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\ForeignTrade.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\Issuer.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\Owner.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\Receiver.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\Recipient.cs" />
+    <Compile Include="Models\Request\Complements\ComercioExterior\SpecificDescriptions.cs" />
+    <Compile Include="Models\Request\Complements\Donat\Donatarias.cs" />
+    <Compile Include="Models\Request\Complements\Iedu\EducationalInstitution.cs" />
+    <Compile Include="Models\Request\Complements\Pagos\Payment.cs" />
+    <Compile Include="Models\Request\Complements\Pagos\RelatedDocument.cs" />
+    <Compile Include="Models\Request\Complements\Terceros\Address.cs" />
+    <Compile Include="Models\Request\Complements\Terceros\CustomsInformation.cs" />
+    <Compile Include="Models\Request\Complements\Terceros\Part.cs" />
+    <Compile Include="Models\Request\Complements\Terceros\ThirdPartyAccount.cs" />
     <Compile Include="Models\Request\Image.cs" />
     <Compile Include="Models\Request\Item.cs" />
+    <Compile Include="Models\Request\ItemComplement.cs" />
     <Compile Include="Models\Request\Receiver.cs" />
     <Compile Include="Models\Request\Tax.cs" />
     <Compile Include="Models\Request\TaxEntity.cs" />
@@ -98,5 +117,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
